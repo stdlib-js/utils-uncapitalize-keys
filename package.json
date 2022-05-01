@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-uncapitalize-keys",
-  "version": "0.0.0",
+  "version": "0.0.8",
   "description": "Convert the first letter of each object key to lowercase.",
   "license": "Apache-2.0",
   "author": {
