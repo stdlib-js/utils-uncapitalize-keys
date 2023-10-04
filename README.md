@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import uncapitalizeKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-uncapitalize-keys@esm/index.mjs';
+import uncapitalizeKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-uncapitalize-keys@v0.1.1-esm/index.mjs';
 ```
 
 #### uncapitalizeKeys( obj )
@@ -100,7 +100,7 @@ var obj2 = uncapitalizeKeys( obj1 );
 <body>
 <script type="module">
 
-import uncapitalizeKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-uncapitalize-keys@esm/index.mjs';
+import uncapitalizeKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-uncapitalize-keys@v0.1.1-esm/index.mjs';
 
 var obj1 = {
     'AA': 'beep',
