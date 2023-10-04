@@ -54,7 +54,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-uncapitalizeKeys = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-uncapitalize-keys@umd/browser.js' )
+uncapitalizeKeys = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-uncapitalize-keys@v0.1.1-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -66,7 +66,7 @@ var uncapitalizeKeys = require( 'path/to/vendor/umd/utils-uncapitalize-keys/inde
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-uncapitalize-keys@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-uncapitalize-keys@v0.1.1-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -122,7 +122,7 @@ var obj2 = uncapitalizeKeys( obj1 );
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-uncapitalize-keys@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-uncapitalize-keys@v0.1.1-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
