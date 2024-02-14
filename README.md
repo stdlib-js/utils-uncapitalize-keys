@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import uncapitalizeKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-uncapitalize-keys@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-uncapitalize-keys/tags). For example,
+
+```javascript
 import uncapitalizeKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-uncapitalize-keys@v0.2.0-deno/mod.js';
 ```
 
@@ -95,7 +100,7 @@ var obj2 = uncapitalizeKeys( obj1 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import uncapitalizeKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-uncapitalize-keys@v0.2.0-deno/mod.js';
+import uncapitalizeKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-uncapitalize-keys@deno/mod.js';
 
 var obj1 = {
     'AA': 'beep',
