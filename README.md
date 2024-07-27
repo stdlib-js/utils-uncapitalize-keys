@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import uncapitalizeKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-uncapitalize-keys@deno/mod.js';
+import uncapitalizeKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-uncapitalize-keys@v0.2.2-deno/mod.js';
 ```
 
 #### uncapitalizeKeys( obj )
@@ -95,7 +95,7 @@ var obj2 = uncapitalizeKeys( obj1 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import uncapitalizeKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-uncapitalize-keys@deno/mod.js';
+import uncapitalizeKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-uncapitalize-keys@v0.2.2-deno/mod.js';
 
 var obj1 = {
     'AA': 'beep',
